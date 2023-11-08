@@ -8,3 +8,4 @@ It's me, KuteSmiles! I am a Roblox developer and gamer, and I am good at writing
 - [Discord](https://discord.gg/tTH6XvrQTK)
 
 For more links see my [linktr.ee page](https://linktr.ee/kutesmiles)
+![Profile Image](https://github.com/KuteSmiles/kutesmiles/blob/master/Untitled%20design.png?raw=true)
