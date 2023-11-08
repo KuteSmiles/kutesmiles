@@ -11,6 +11,8 @@
   `;
   document.body.appendChild(fulldisplay);
 
+  fullDisplay.addEventListener("contextmenu", (ev)=>ev.preventDefault());
+
   var topbar = document.createElement("div");
   topbar.style = `
     position: absolute;
@@ -89,7 +91,7 @@
     ctx.textAlign = "center";
     var y = 35 - height / 2;
     y += ascending;
-    ctx.fillText(title, 20, y, 200);
+    ctx.fillText(title, 120, y);
 
     var tab = document.createElement("section");
     tab.style = `
@@ -103,6 +105,7 @@
 
     xtabs.set(tab, tabButton);
     navtabs.appendChild(tabButton);
+    tabButton.addEventListener("click", ()=>setTab(tab));
 
     if (!active) setTab(tab);
 
